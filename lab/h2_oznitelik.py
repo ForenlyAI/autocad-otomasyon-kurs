@@ -22,7 +22,7 @@ def oznitelikli_blok(doc):
                      dxfattribs={"height": 110, "prompt": istem, "layer": "A-ANNO-TEXT", "invisible": 1 if etiket == "FIYAT" else 0})
 
 
-# foi bağı: insansı robot (G1) tezgâhtan masalara çay götürür. Yol ve istasyon ÖRNEK; robot gövde genişliği 450 mm varsayıldı.
+# foi bağı: insansı robot tezgâhtan masalara çay götürür. Yol ve istasyon ÖRNEK; robot gövde genişliği 450 mm varsayıldı.
 ISTASYON = (7000, 5400)          # şarj istasyonu merkezi (tezgâhın kuzeyi)
 ROBOT_YOLU = [(5900, 3000), (3000, 3000)]   # tezgâh önü → iki masa sırasının arası (dört masaya da buradan servis)
 
