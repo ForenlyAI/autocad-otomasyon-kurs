@@ -102,7 +102,7 @@ def isaretle(silinen, eklenen, doc):
 
 
 # Robot koridoru denetimi (foi): yol çizgisinden her engele (masa, sandalye, tezgâh) en az YARIM_KORIDOR mesafe.
-ROBOT_GENISLIK = 450; PAY = 175                  # ÖRNEK: G1 gövde genişliği ~450 mm + iki yanda 175 mm → 800 mm koridor
+ROBOT_GENISLIK = 450; PAY = 175                  # ÖRNEK: insansı robot gövde genişliği ~450 mm + iki yanda 175 mm → 800 mm koridor
 YARIM_KORIDOR = ROBOT_GENISLIK / 2 + PAY
 
 

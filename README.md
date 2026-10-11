@@ -1,6 +1,6 @@
 # AutoCAD Çizim Otomasyonu · öğrenci deposu
 
-Forenly AI Academy kursu için çalışma deposu. Yürüyen örnek: bir kafede **insansı robotun (Unitree G1) çay servisi** yaptığı mekânın planı. Forenly AI'ın foi'si (Forenly Operational Intelligence) robotu böyle bir işletmenin içinde otonom çalıştırır. Bu yüzden çizim yalnız mimar için değil, robot için de doğru olmalı: robotun servis yolu açık kalmalı.
+Forenly AI Academy kursu için çalışma deposu. Yürüyen örnek: bir kafede **insansı robotun çay servisi** yaptığı mekânın planı. Forenly AI'ın foi'si (Forenly Operational Intelligence) robotu böyle bir işletmenin içinde otonom çalıştırır. Bu yüzden çizim yalnız mimar için değil, robot için de doğru olmalı: robotun servis yolu açık kalmalı.
 
 Önceki kursta (AutoCAD ile Tesis Yerleşim Planı) çizdiğiniz kafe planını bu kursta Python (ezdxf) ile **denetler, zenginleştirir ve paftaya dökersiniz**. Her sonucu AutoCAD'de açıp doğrularsınız.
 
@@ -33,6 +33,10 @@ cd .. && python kontrol.py
 2. **Metraj:** `M-05` adında 6 kişilik yeni bir masa ekleyin. Kişi sayısı sandalye sayısıyla hâlâ tutuyor mu?
 3. **Robot koridoru:** M-03 takımını kuzeye değil güneye 300 mm taşıyın. Koridor geçiyor mu? Robot genişliğini 500 mm yaparsanız ne olur?
 4. **Claude Code katmanı:** Claude Code'a "A-104 adında, yalnız robot yolu ve istasyonu gösteren bir pafta ekle" deyin. Değişen satırları okuyun, PDF'i açın, `kontrol.py`'nin neden artık farklı dediğini açıklayın.
+
+## Bitirme işi
+
+Ölçüt çizelgesi: [`RUBRIK.md`](RUBRIK.md). Teslimden önce `python kontrol.py` ile kafe örneğinin sonuçlarını, kendi planınız için de denetim betiğini koşun.
 
 ## Sınırlar
 
