@@ -1,0 +1,10 @@
+tür,nesne/katman,bulgu
+ad,duvarlar,standart dışı katman adı
+ad,Layer1,standart dışı katman adı
+ad,mobilya yeni,standart dışı katman adı
+ad,eski_cizim,standart dışı katman adı
+bos,eski_cizim,kullanılmayan katman
+renk,INSERT (mobilya yeni),renk nesneye verilmiş: 5
+renk,INSERT (mobilya yeni),renk nesneye verilmiş: 5
+sifir,TEXT,nesne 0 katmanında
+renk,TEXT (0),renk nesneye verilmiş: 1

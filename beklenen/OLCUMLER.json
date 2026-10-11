@@ -1,0 +1,152 @@
+{
+ "h1_katman_sayisi": 6,
+ "h1_nesne": 28,
+ "h1_nesne_tur": {
+  "LWPOLYLINE": 3,
+  "LINE": 3,
+  "ARC": 1,
+  "INSERT": 20,
+  "TEXT": 1
+ },
+ "h1_bulgu_once": 9,
+ "h1_bulgu_sonra": 0,
+ "h1_ad": 4,
+ "h1_bos": 1,
+ "h1_sifir": 1,
+ "h1_renk": 3,
+ "h1_katmanlar_sonra": [
+  "0",
+  "A-ANNO-DIMS",
+  "A-ANNO-TEXT",
+  "A-DOOR",
+  "A-EQPM-PATH",
+  "A-EQPM-ROBT",
+  "A-FURN",
+  "A-WALL",
+  "Defpoints",
+  "G-ANNO-TTLB"
+ ],
+ "h1_standart": [
+  "A-WALL",
+  "A-DOOR",
+  "A-FURN",
+  "A-ANNO-TEXT",
+  "A-ANNO-DIMS",
+  "G-ANNO-TTLB",
+  "A-EQPM-ROBT",
+  "A-EQPM-PATH"
+ ],
+ "h2_masa": 4,
+ "h2_kisi": 14,
+ "h2_sandalye": 14,
+ "h2_masa_tl": 26000,
+ "h2_sandalye_tl": 29400,
+ "h2_toplam_tl": 55400,
+ "h2_satirlar": [
+  [
+   "M-01",
+   4,
+   "akasya",
+   6500,
+   1800,
+   1700
+  ],
+  [
+   "M-02",
+   4,
+   "akasya",
+   6500,
+   1800,
+   4300
+  ],
+  [
+   "M-03",
+   4,
+   "ceviz",
+   7800,
+   4200,
+   1700
+  ],
+  [
+   "M-04",
+   2,
+   "ceviz",
+   5200,
+   4200,
+   4300
+  ]
+ ],
+ "h2_kisi_sandalye_uyumu": true,
+ "h3_koridor_gerekli_mm": 800.0,
+ "h3_koridor_rev1": {
+  "en_dar_mm": 850,
+  "engel": "SANDALYE",
+  "nokta": [
+   4413,
+   3000
+  ],
+  "gecer": true
+ },
+ "h3_koridor_rev2": {
+  "en_dar_mm": 0,
+  "engel": "SANDALYE",
+  "nokta": [
+   4413,
+   3000
+  ],
+  "gecer": false
+ },
+ "h3_mimari_nesne": 6,
+ "h3_mobilya_nesne": 23,
+ "h3_xref": "MIMARI → kafe_mimari.dwg",
+ "h3_eklenen": 10,
+ "h3_silinen": 11,
+ "h3_eklenen_liste": [
+  "LWPOLYLINE A-WALL",
+  "LWPOLYLINE A-WALL",
+  "LINE A-WALL",
+  "LINE A-DOOR",
+  "ARC A-DOOR",
+  "INSERT A-FURN SANDALYE",
+  "INSERT A-FURN SANDALYE",
+  "INSERT A-FURN SANDALYE",
+  "INSERT A-FURN SANDALYE",
+  "INSERT A-FURN MASA_OZ M-03"
+ ],
+ "h3_silinen_liste": [
+  "LWPOLYLINE A-WALL",
+  "LWPOLYLINE A-WALL",
+  "LINE A-WALL",
+  "LINE A-DOOR",
+  "ARC A-DOOR",
+  "INSERT A-FURN SANDALYE",
+  "INSERT A-FURN SANDALYE",
+  "INSERT A-FURN SANDALYE",
+  "INSERT A-FURN SANDALYE",
+  "INSERT A-FURN SANDALYE",
+  "INSERT A-FURN MASA_OZ M-03"
+ ],
+ "h4_pafta_sayisi": 3,
+ "h4_pdf_mm": [
+  [
+   420,
+   297
+  ],
+  [
+   420,
+   297
+  ],
+  [
+   420,
+   297
+  ]
+ ],
+ "h4_olcek": [
+  50
+ ],
+ "h4_pafta_adlari": [
+  "A-101 Kat planı",
+  "A-102 Mobilya ve robot yolu",
+  "A-103 Revizyon 2 farkı"
+ ]
+}
